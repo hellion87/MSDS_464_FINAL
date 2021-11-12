@@ -2,6 +2,7 @@ from random import choice
 
 import chess
 import chess.svg
+from .agent import Agent
 
 
 class ActionSpace:
@@ -31,9 +32,10 @@ class ChessEnvV1:
     Chess environment. Player is always white. Opponent plays randomly.
     """
 
-    def __init__(self):
+    def __init__(self, opponent: Agent):
         self.board = chess.Board()
         self.action_space = ActionSpace(self.board)
+        self.opponent = opponent
 
     def _observation(self) -> str:
         """
@@ -93,15 +95,13 @@ class ChessEnvV1:
         """
         self.board.push_uci(action)
         is_done = self._is_done()
-        if is_done:
-            obs = self._observation()
-            reward = self._reward()
-        else:
-            # let opponent make a random move
-            black_move = self.action_space.sample()
+        obs = self._observation()
+        if not is_done:
+            # let opponent make a move
+            black_move = self.opponent.observe(0, obs)
             self.board.push_uci(black_move)
             obs = self._observation()
             is_done = self._is_done()
-            reward = self._reward()
 
+        reward = self._reward()
         return obs, reward, is_done
