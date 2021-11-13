@@ -38,14 +38,19 @@ class RandomAgent(Agent):
 
 class StockfishAgent(Agent):
 
-    def __init__(self, name: str, stockfish_path: str):
+    def __init__(self, name: str, stockfish_path: str, elo: int = 2850):
         """
         :param name:
         :param stockfish_path: This is the path to your local stockfish binary.
         It might look something like this: '/opt/homebrew/bin/stockfish'
+        :param elo: The desired ELO score for this bot. Valid range includes 1350 to 2850
+        https://github.com/official-stockfish/Stockfish/blob/2046d5da30b2cd505b69bddb40062b0d37b43bc7/src/ucioption.cpp
         """
+        assert(1350 <= elo <= 2850)
         super().__init__(name)
         self.engine = chess.engine.SimpleEngine.popen_uci(stockfish_path)
+        self.engine.configure({"UCI_LimitStrength": 1800})
+        self.engine.configure({"UCI_Elo": elo})
 
     def observe(self, reward: int, observation: str) -> str:
         board = chess.Board(observation)
