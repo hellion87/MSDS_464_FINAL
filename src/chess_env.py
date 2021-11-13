@@ -1,7 +1,9 @@
 from random import choice
+from datetime import date
 
 import chess
 import chess.svg
+import chess.pgn
 from .agent import Agent
 
 
@@ -33,9 +35,14 @@ class ChessEnvV1:
     """
 
     def __init__(self, opponent: Agent):
-        self.board = chess.Board()
-        self.action_space = ActionSpace(self.board)
         self.opponent = opponent
+        self.board = chess.Board()
+        self.game = chess.pgn.Game()
+        self.game.headers["White"] = 'Agent'
+        self.game.headers["Black"] = self.opponent.name
+        self.game.headers["Date"] = str(date.today())
+        self.node = self.game
+        self.action_space = ActionSpace(self.board)
 
     def _observation(self) -> str:
         """
@@ -78,6 +85,12 @@ class ChessEnvV1:
         Resets the game and returns an observation
         :return: observation
         """
+        self.board = chess.Board()
+        self.game = chess.pgn.Game()
+        self.game.headers["White"] = 'Agent'
+        self.game.headers["Black"] = self.opponent.name
+        self.game.headers["Date"] = str(date.today())
+        self.node = self.game
         return self._observation()
 
     def render_image(self, **kwargs):
@@ -88,20 +101,24 @@ class ChessEnvV1:
         print(self.board)
         print('\n')
 
-    def step(self, action: str) -> tuple[str, int, bool]:
+    def step(self, action: str) -> tuple[str, int, bool, chess.pgn.Game]:
         """
         :param action: action in algebraic notation
         :return: observation, reward, is_done
         """
         self.board.push_uci(action)
+        self.node = self.node.add_variation(chess.Move.from_uci(action))  # Add game node to log
         is_done = self._is_done()
         obs = self._observation()
         if not is_done:
             # let opponent make a move
             black_move = self.opponent.observe(0, obs)
             self.board.push_uci(black_move)
+            self.node = self.node.add_variation(chess.Move.from_uci(black_move))  # Add game node to log
             obs = self._observation()
             is_done = self._is_done()
 
+        self.game.headers["Result"] = self.board.result()
         reward = self._reward()
-        return obs, reward, is_done
+        info = self.game
+        return obs, reward, is_done, info

@@ -12,10 +12,10 @@ class EloEvaluator:
         env = ChessEnvV1(opponent=opponent)
         obs = env.reset()
         white_move = self.agent.observe(0, obs)
-        obs, reward, is_done = env.step(white_move)
+        obs, reward, is_done, _ = env.step(white_move)
         while not is_done:
             white_move = self.agent.observe(0, obs)
-            obs, reward, is_done = env.step(white_move)
+            obs, reward, is_done, _ = env.step(white_move)
         return reward
 
     @staticmethod
