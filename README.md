@@ -7,3 +7,5 @@ ________
 
 ##### We use RL to train an agent to play chess.
 
+##### The docs folder contains LaTeX documents for our writeup
+
