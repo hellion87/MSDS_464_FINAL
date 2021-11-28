@@ -8,6 +8,7 @@ import chess.engine
 class Agent(ABC):
     def __init__(self, name: str, is_white=True):
         self.name = name
+        self.is_white = is_white
 
     @abstractmethod
     def observe(self, reward: int, observation: str) -> str:
