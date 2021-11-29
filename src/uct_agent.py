@@ -46,7 +46,7 @@ class UCTNode:
 
     def add_child(self, move: str):
         child_state = self._get_next_state(self.game_state, move)
-        self.children[move] = UCTNode(child_state, parent=self)
+        self.children[move] = UCTNode(child_state, parent=self, c=self.c)
 
     def best_child(self) -> UCTNode:
         return max(self.children.values(), key=lambda node: node.Q() + node.U())
@@ -85,6 +85,7 @@ class UCTAgent(Agent):
         super().__init__(name, is_white)
         self.iterations = iterations
         self.c: float = c
+        self.last_iter_root = None # root node from last iteration's search
 
     def observe(self, reward: int, observation: str) -> str:
         # Observation is a string in Forsyth-Edwards Notation (FEN)
@@ -95,14 +96,38 @@ class UCTAgent(Agent):
     def _UCT_search(self, game_state: str, num_iterations: int) -> str:
         # Game state is a string in Forsyth-Edwards Notation (FEN)
         # Returns an action as a string in algebraic notation (e.g. e3f2)
-        root = UCTNode(game_state, c=self.c)
+
+        # Re-use the search tree from the last iteration if possible
+        if self.last_iter_root and self._bfs(self.last_iter_root, game_state):
+            root = self._bfs(self.last_iter_root, game_state)
+        # Otherwise create a new tree from scratch
+        else:
+            root = UCTNode(game_state, c=self.c)
+
         for _ in range(num_iterations):
             leaf = root.select_leaf()
             leaf.expand()
             simulation_result = self._rollout(leaf.game_state)  # 1=win, -1=loss, 0=draw
             leaf.backup(simulation_result)
+
         # return the action that was taken the most times
-        return max(root.children.items(), key=lambda item: item[1].number_visits)[0]
+        move = max(root.children.items(), key=lambda item: item[1].number_visits)[0]
+        # Save the tree for the next search
+        self.last_iter_root = root
+
+        return move
+
+    def _bfs(self, root: UCTNode, fen: str):
+        # Starting from root, search a tree for a node where the game state
+        # matches the passed in FEN
+        queue = [root]
+        while len(queue) > 0:
+            vertex = queue.pop(0)
+            if vertex.game_state == fen:
+                return vertex
+
+            child_nodes = vertex.children.values()
+            queue.extend(child_nodes)
 
     def _rollout(self, state: str) -> int:
         # Random rollout
