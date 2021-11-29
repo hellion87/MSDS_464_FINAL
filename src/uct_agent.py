@@ -10,13 +10,14 @@ from .agent import Agent
 
 
 class UCTNode:
-    def __init__(self, game_state: str, parent=None):
+    def __init__(self, game_state: str, parent=None, c=1):
         self.game_state = game_state  # FEN string
         self.is_expanded = False  # False indicates that this is a leaf node
         self.parent = parent  # Optional[UCTNode]
         self.children = {}  # Dict[move, UCTNode]
         self.total_value = 0  # int (sum of total rewards)
         self.number_visits = 0  # int
+        self.c = c # exploration hyper-parameter for UCT. Increase c to explore.
 
     def select_leaf(self) -> UCTNode:
         current = self
@@ -50,9 +51,10 @@ class UCTNode:
         return max(self.children.values(), key=lambda node: node.Q() + node.U())
 
     def U(self) -> float:
-        # TODO - add exploration parameter c
+        # c is the exploration hyper-parameter. Increase c to explore more.
         # Add 1 to avoid numerical errors
-        return math.sqrt(math.log(self.parent.number_visits + 1) / (self.number_visits + 1))
+        return (self.c * math.sqrt(math.log(self.parent.number_visits + 1)
+                                   / (self.number_visits + 1)))
 
     def Q(self) -> float:
         return self.total_value / (1 + self.number_visits)
@@ -78,9 +80,10 @@ class UCTAgent(Agent):
     we randomly select actions from a list of legal moves.
     """
 
-    def __init__(self, name: str, is_white=True, iterations: int = 10):
+    def __init__(self, name: str, is_white=True, iterations: int = 10, c=1):
         super().__init__(name, is_white)
         self.iterations = iterations
+        self.c = c
 
     def observe(self, reward: int, observation: str) -> str:
         # Observation is a string in Forsyth-Edwards Notation (FEN)
@@ -91,7 +94,7 @@ class UCTAgent(Agent):
     def _UCT_search(self, game_state: str, num_iterations: int) -> str:
         # Game state is a string in Forsyth-Edwards Notation (FEN)
         # Returns an action as a string in algebraic notation (e.g. e3f2)
-        root = UCTNode(game_state)
+        root = UCTNode(game_state, c=self.c)
         for _ in range(num_iterations):
             leaf = root.select_leaf()
             leaf.expand()
