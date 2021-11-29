@@ -43,6 +43,7 @@ class UCTNode:
             current.number_visits += 1
             current.total_value += value_estimate
             current = current.parent
+        current.number_visits += 1  # increment visit count for root
 
     def add_child(self, move: str):
         child_state = self._get_next_state(self.game_state, move)
