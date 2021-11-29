@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import math
 from random import choice
+from typing import Dict
 
 import chess
 
@@ -10,14 +11,14 @@ from .agent import Agent
 
 
 class UCTNode:
-    def __init__(self, game_state: str, parent=None, c=1):
+    def __init__(self, game_state: str, parent: UCTNode = None, c=1.0):
         self.game_state = game_state  # FEN string
         self.is_expanded = False  # False indicates that this is a leaf node
-        self.parent = parent  # Optional[UCTNode]
-        self.children = {}  # Dict[move, UCTNode]
-        self.total_value = 0  # int (sum of total rewards)
-        self.number_visits = 0  # int
-        self.c = c # exploration hyper-parameter for UCT. Increase c to explore.
+        self.parent = parent
+        self.children: Dict[str, UCTNode] = {}  # Dict[move, UCTNode]
+        self.total_value: int = 0  # sum of total rewards
+        self.number_visits: int = 0
+        self.c: float = c  # exploration hyper-parameter for UCT. Increase c to explore.
 
     def select_leaf(self) -> UCTNode:
         current = self
@@ -29,14 +30,14 @@ class UCTNode:
     def expand(self):
         legal_moves = self._get_legal_moves(self.game_state)
         if len(legal_moves) == 0:
-            return # Do not expand node that is a terminal state
+            return  # Do not expand node that is a terminal state
         # Mark leaf node as expanded
         self.is_expanded = True
         # EAGERLY add a child node for each legal move
         for move in legal_moves:
             self.add_child(move)
 
-    def backup(self, value_estimate):
+    def backup(self, value_estimate: int):
         current = self
         while current.parent is not None:
             current.number_visits += 1
@@ -83,7 +84,7 @@ class UCTAgent(Agent):
     def __init__(self, name: str, is_white=True, iterations: int = 10, c=1):
         super().__init__(name, is_white)
         self.iterations = iterations
-        self.c = c
+        self.c: float = c
 
     def observe(self, reward: int, observation: str) -> str:
         # Observation is a string in Forsyth-Edwards Notation (FEN)
@@ -113,7 +114,7 @@ class UCTAgent(Agent):
             legal_moves_str = [str(move) for move in legal_moves]
             return choice(legal_moves_str)
 
-        def _get_reward(board) -> int:
+        def _get_reward(board: chess.Board) -> int:
             # Get the result of the game. E.g. ('1-0', '0-1, or '1/2-1/2')
             result = board.result()
             # Determine the reward from the simulated rollout.
