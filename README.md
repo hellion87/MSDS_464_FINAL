@@ -8,6 +8,6 @@ ________
 ##### We use RL to train an agent to play chess.
 
 ##### The docs folder contains LaTeX documents for our writeup
-* /docs/final_report - Contains the PDF and tex files.
+* /docs - Contains the PDF and tex files.
 * /notebooks - Contain the Jupyter notebooks for our experiments.
 
