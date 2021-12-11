@@ -1,0 +1,854 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{abrams_lessons_2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b1ecf3911ecb59d09643de6a136990ac}{%
+           family={Abrams},
+           familyi={A\bibinitperiod},
+           given={Vish\bibnamedelima (Ishaya)},
+           giveni={V\bibinitperiod\bibinitdelim (\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1ecf3911ecb59d09643de6a136990ac}
+      \strng{fullhash}{b1ecf3911ecb59d09643de6a136990ac}
+      \strng{bibnamehash}{b1ecf3911ecb59d09643de6a136990ac}
+      \strng{authorbibnamehash}{b1ecf3911ecb59d09643de6a136990ac}
+      \strng{authornamehash}{b1ecf3911ecb59d09643de6a136990ac}
+      \strng{authorfullhash}{b1ecf3911ecb59d09643de6a136990ac}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This is the Fourth installment in our series on lessons learned from implementing {AlphaZero}. Check out Part 1, Part 2, and Part 3.}
+      \field{day}{9}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shorttitle}{Lessons From {AlphaZero} (part 4)}
+      \field{title}{Lessons From {AlphaZero} (part 4): Improving the Training Target}
+      \field{titleaddon}{Oracle Developers}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/oracledevs/lessons-from-alphazero-part-4-improving-the-training-target-6efba2e71628
+      \endverb
+      \verb{url}
+      \verb https://medium.com/oracledevs/lessons-from-alphazero-part-4-improving-the-training-target-6efba2e71628
+      \endverb
+    \endentry
+    \entry{andrychowicz_what_2020}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=0d8b72cabbd1b548097b4a7b81a0f335}{%
+           family={Andrychowicz},
+           familyi={A\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b456173e93f42e0bb093f27668a968f7}{%
+           family={Raichuk},
+           familyi={R\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b20f72a4478d4b8236071f03c27d1867}{%
+           family={Stańczyk},
+           familyi={S\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60a54aacccdd762b66d3581b9cde1027}{%
+           family={Orsini},
+           familyi={O\bibinitperiod},
+           given={Manu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=467424e0ae809ebd9478a47ef7a97d20}{%
+           family={Girgin},
+           familyi={G\bibinitperiod},
+           given={Sertan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79f69be5554fd11136fafdd90ebe5370}{%
+           family={Marinier},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f5a07f8382b8a7b1dcc77dc55179bb7}{%
+           family={Hussenot},
+           familyi={H\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ae5ad1ab1ce41ac0f9d705561439ad2}{%
+           family={Geist},
+           familyi={G\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa8a4817aef70fffae62a48b98481ef7}{%
+           family={Pietquin},
+           familyi={P\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=508b11a7934e1a9be0357f29469ea2f4}{%
+           family={Michalski},
+           familyi={M\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed26427d8219011ddc4ccc2ef3237fa1}
+      \strng{fullhash}{dc474aa4b7c44a1914e3dcccada70c28}
+      \strng{bibnamehash}{dc474aa4b7c44a1914e3dcccada70c28}
+      \strng{authorbibnamehash}{dc474aa4b7c44a1914e3dcccada70c28}
+      \strng{authornamehash}{ed26427d8219011ddc4ccc2ef3237fa1}
+      \strng{authorfullhash}{dc474aa4b7c44a1914e3dcccada70c28}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{What matters for on-policy deep actor-critic methods? a large-scale study}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Andrychowicz et al. - 2021 - WHAT MATTERS FOR ON-POLICY DEEP ACTOR- CRITIC METH.pdf:/Users/philmoremorrison/Zotero/storage/GDY88I5M/Andrychowicz et al. - 2021 - WHAT MATTERS FOR ON-POLICY DEEP ACTOR- CRITIC METH.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{baxter_learning_2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5f0575a363e95b28a935fc4c0fc0dfc5}{%
+           family={Baxter},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e03aa2792f85bde1bb795365e3bdc0b7}{%
+           family={Tridgell},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5488712a5a370cda5ee6aea808aacb96}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Lex},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \strng{fullhash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \strng{bibnamehash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \strng{authorbibnamehash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \strng{authornamehash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \strng{authorfullhash}{f6bfafdfd89b7de52e71c95aad4e1398}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{month}{09}
+      \field{title}{Learning to Play Chess Using Temporal Differences}
+      \field{volume}{40}
+      \field{year}{2000}
+      \field{pages}{243\bibrangedash 263}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1023/A:1007634325138
+      \endverb
+    \endentry
+    \entry{campbell_deep_2002}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0b29c33e62b9ff91d2cb5e73984c8017}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee11fcd414bf4c15bef7cbff8ebca99}{%
+           family={Hoane},
+           familyi={H\bibinitperiod},
+           given={A.Joseph},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4b058d44f9e5ad050dd6317be214f0b}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Feng-hsiung},
+           giveni={F\bibinithyphendelim h\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{48895abef2eca3e38fdfdb88729f31a8}
+      \strng{fullhash}{48895abef2eca3e38fdfdb88729f31a8}
+      \strng{bibnamehash}{48895abef2eca3e38fdfdb88729f31a8}
+      \strng{authorbibnamehash}{48895abef2eca3e38fdfdb88729f31a8}
+      \strng{authornamehash}{48895abef2eca3e38fdfdb88729f31a8}
+      \strng{authorfullhash}{48895abef2eca3e38fdfdb88729f31a8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00043702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Artificial Intelligence}
+      \field{title}{Deep Blue}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{134}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{57\bibrangedash 83}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/S0004-3702(01)00129-1
+      \endverb
+      \verb{file}
+      \verb Deep Blue.pdf:/Users/philmoremorrison/Zotero/storage/4R7AYQXA/Deep Blue.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370201001291
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370201001291
+      \endverb
+    \endentry
+    \entry{choudhary_introduction_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ccaf2e3382655071701166f47605df0}{%
+           family={Choudhary},
+           familyi={C\bibinitperiod},
+           given={Ankit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0ccaf2e3382655071701166f47605df0}
+      \strng{fullhash}{0ccaf2e3382655071701166f47605df0}
+      \strng{bibnamehash}{0ccaf2e3382655071701166f47605df0}
+      \strng{authorbibnamehash}{0ccaf2e3382655071701166f47605df0}
+      \strng{authornamehash}{0ccaf2e3382655071701166f47605df0}
+      \strng{authorfullhash}{0ccaf2e3382655071701166f47605df0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monte Carlo Tree Search Tutorial the game changing algorithm behind deepmind alphago. In this article, learn about how Alphago and alphago program works.}
+      \field{journaltitle}{Analytics Vidhya}
+      \field{month}{1}
+      \field{title}{Introduction to {Monte} {Carlo} {Tree} {Search}: {The} {Game}-{Changing} {Algorithm} behind {DeepMind}’s {AlphaGo}}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/christopherfesta/Zotero/storage/7JJSJKPA/monte-carlo-tree-search-introduction-algorithm-deepmind-alphago.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.analyticsvidhya.com/blog/2019/01/monte-carlo-tree-search-introduction-algorithm-deepmind-alphago/
+      \endverb
+      \verb{url}
+      \verb https://www.analyticsvidhya.com/blog/2019/01/monte-carlo-tree-search-introduction-algorithm-deepmind-alphago/
+      \endverb
+    \endentry
+    \entry{karunakaran_actor-critic_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=466094ec6aca99912d96aa90cc65a509}{%
+           family={Karunakaran},
+           familyi={K\bibinitperiod},
+           given={Dhanoop},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{466094ec6aca99912d96aa90cc65a509}
+      \strng{fullhash}{466094ec6aca99912d96aa90cc65a509}
+      \strng{bibnamehash}{466094ec6aca99912d96aa90cc65a509}
+      \strng{authorbibnamehash}{466094ec6aca99912d96aa90cc65a509}
+      \strng{authornamehash}{466094ec6aca99912d96aa90cc65a509}
+      \strng{authorfullhash}{466094ec6aca99912d96aa90cc65a509}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Policy-based and value-based RL algorithm}
+      \field{journaltitle}{Intro to Artificial Intelligence}
+      \field{month}{9}
+      \field{title}{The actor-{Critic} {Reinforcement} {Learning} algorithm}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/christopherfesta/Zotero/storage/W7JALQJS/the-actor-critic-reinforcement-learning-algorithm-c8095a655c14.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/intro-to-artificial-intelligence/the-actor-critic-reinforcement-learning-algorithm-c8095a655c14
+      \endverb
+      \verb{url}
+      \verb https://medium.com/intro-to-artificial-intelligence/the-actor-critic-reinforcement-learning-algorithm-c8095a655c14
+      \endverb
+    \endentry
+    \entry{konda_actor-critic_2000}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d35164288894492d4d0f63642c407d2b}{%
+           family={Konda},
+           familyi={K\bibinitperiod},
+           given={Vijay\bibnamedelima R},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c68e0327319b548306afacf417d06ebf}{%
+           family={Tsitsiklis},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb622649095dc3fa4beca096cba4840a}
+      \strng{fullhash}{fb622649095dc3fa4beca096cba4840a}
+      \strng{bibnamehash}{fb622649095dc3fa4beca096cba4840a}
+      \strng{authorbibnamehash}{fb622649095dc3fa4beca096cba4840a}
+      \strng{authornamehash}{fb622649095dc3fa4beca096cba4840a}
+      \strng{authorfullhash}{fb622649095dc3fa4beca096cba4840a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Actor-critic algorithms}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{1008\bibrangedash 1014}
+      \range{pages}{7}
+      \verb{file}
+      \verb Konda and Tsitsiklis - Actor-Critic Algorithms.pdf:/Users/philmoremorrison/Zotero/storage/KN9MTH6V/Konda and Tsitsiklis - Actor-Critic Algorithms.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lin_monte_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=125eb2dc8c0a0642ee6803c6702e76b3}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima Fun},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \strng{fullhash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \strng{bibnamehash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \strng{authorbibnamehash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \strng{authornamehash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \strng{authorfullhash}{125eb2dc8c0a0642ee6803c6702e76b3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monte Carlo Tree Search ({MCTS}) has been successfully applied to a variety of games. Its best-first algorithm enables implementations without evaluation functions. Combined with Upper Confidence bounds applied to Trees ({UCT}), {MCTS} has an advantage over traditional depth-limited minimax search with alpha-beta pruning in games with high branching factors such as Go. However, minimax search with alpha-beta pruning still surpasses {MCTS} in domains like Chess. Studies show that {MCTS} does not detect shallow traps, where opponents can win within a few moves, as well as minimax search. Thus, minimax search performs better than {MCTS} in games like Chess, which can end instantly (king is captured). A combination of {MCTS} and minimax algorithm is proposed in this thesis to see the effectiveness of detecting shallow traps in Go problems.}
+      \field{langid}{english}
+      \field{note}{Publisher: Digital Repository at the University of Maryland}
+      \field{title}{{MONTE} {CARLO} {TREE} {SEARCH} {AND} {MINIMAX} {COMBINATION} – {APPLICATION} {OF} {SOLVING} {PROBLEMS} {IN} {THE} {GAME} {OF} {GO}}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.13016/M2VD6P64Q
+      \endverb
+      \verb{urlraw}
+      \verb http://drum.lib.umd.edu/handle/1903/20449
+      \endverb
+      \verb{url}
+      \verb http://drum.lib.umd.edu/handle/1903/20449
+      \endverb
+      \keyw{Engineering,Monte Carlo Tree Search}
+    \endentry
+    \entry{pumperla_chapter_2019}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4f6cec8621ea178acc459fc20cb38df5}{%
+           family={Pumperla},
+           familyi={P\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88a7aba52a01718a79f36c0f3db047b0}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a47742b22b70d5747637cc9a807e59e0}
+      \strng{fullhash}{a47742b22b70d5747637cc9a807e59e0}
+      \strng{bibnamehash}{a47742b22b70d5747637cc9a807e59e0}
+      \strng{authorbibnamehash}{a47742b22b70d5747637cc9a807e59e0}
+      \strng{authornamehash}{a47742b22b70d5747637cc9a807e59e0}
+      \strng{authorfullhash}{a47742b22b70d5747637cc9a807e59e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using advantage to make reinforcement learning more efficient; Making a self-improving game {AI} with the actor-critic method; Designing and training multi-output neural networks in Keras;}
+      \field{langid}{american}
+      \field{title}{Chapter 12. Reinforcement learning with actor-critic methods · Deep Learning and the Game of Go}
+      \field{titleaddon}{Manning Publications}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/philmoremorrison/Zotero/storage/EFAUNTZW/2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://livebook.manning.com/book/deep-learning-and-the-game-of-go/chapter-12/
+      \endverb
+      \verb{url}
+      \verb https://livebook.manning.com/book/deep-learning-and-the-game-of-go/chapter-12/
+      \endverb
+    \endentry
+    \entry{ring_replicating_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50349f5d4ef065e417356ee70e0f7069}{%
+           family={Ring},
+           familyi={R\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50349f5d4ef065e417356ee70e0f7069}
+      \strng{fullhash}{50349f5d4ef065e417356ee70e0f7069}
+      \strng{bibnamehash}{50349f5d4ef065e417356ee70e0f7069}
+      \strng{authorbibnamehash}{50349f5d4ef065e417356ee70e0f7069}
+      \strng{authornamehash}{50349f5d4ef065e417356ee70e0f7069}
+      \strng{authorfullhash}{50349f5d4ef065e417356ee70e0f7069}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reinforcement Learning ({RL}) is a subﬁeld of Artiﬁcial Intelligence ({AI}) that deals with agents navigating in an environment with the goal of maximizing total reward. Games are good environments to test {RL} algorithms as they have simple rules and clear reward signals. Theoretical part of this thesis explores some of the popular classical and modern {RL} approaches, which include the use of Artiﬁcial Neural Network ({ANN}) as a function approximator inside {AI} agent. In practical part of the thesis we implement Advantage Actor-Critic {RL} algorithm and replicate {ANN} based agent described in [Vinyals et al., 2017]. We reproduce the state-of-the-art results in a modern video game {StarCraft} {II}, a game that is considered the next milestone in {AI} after the fall of chess and Go.}
+      \field{langid}{english}
+      \field{title}{Replicating {DeepMind} {StarCraft} {II} Reinforcement Learning Benchmark with Actor-Critic Methods}
+      \field{pages}{40}
+      \range{pages}{1}
+      \verb{file}
+      \verb Ring - Replicating DeepMind StarCraft II Reinforcement Le.pdf:/Users/philmoremorrison/Zotero/storage/ZB7ZMIAG/Ring - Replicating DeepMind StarCraft II Reinforcement Le.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{samuel1959}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a34c1ec201fc249b01c996cf319ea383}{%
+           family={Samuel},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{fullhash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{bibnamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authorbibnamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authornamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authorfullhash}{a34c1ec201fc249b01c996cf319ea383}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IBM Journal of Research and Development}
+      \field{number}{3}
+      \field{title}{Some Studies in Machine Learning Using the Game of Checkers}
+      \field{volume}{3}
+      \field{year}{1959}
+      \field{pages}{210\bibrangedash 229}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1147/rd.33.0210
+      \endverb
+    \endentry
+    \entry{science_understanding_2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af68b753ba94d60e3bc475b6b38f856d}{%
+           family={Science},
+           familyi={S\bibinitperiod},
+           given={{ODSC}-Open\bibnamedelima Data},
+           giveni={O\bibinithyphendelim O\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af68b753ba94d60e3bc475b6b38f856d}
+      \strng{fullhash}{af68b753ba94d60e3bc475b6b38f856d}
+      \strng{bibnamehash}{af68b753ba94d60e3bc475b6b38f856d}
+      \strng{authorbibnamehash}{af68b753ba94d60e3bc475b6b38f856d}
+      \strng{authornamehash}{af68b753ba94d60e3bc475b6b38f856d}
+      \strng{authorfullhash}{af68b753ba94d60e3bc475b6b38f856d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The temporal difference learning algorithm was introduced by Richard S. Sutton in 1988. The reason the temporal difference learning method…}
+      \field{day}{11}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Understanding the Temporal Difference Learning and its Predication}
+      \field{titleaddon}{Medium}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/philmoremorrison/Zotero/storage/VUTP45XB/understanding-the-temporal-difference-learning-and-its-predication-efc91016144a.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/@ODSC/understanding-the-temporal-difference-learning-and-its-predication-efc91016144a
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@ODSC/understanding-the-temporal-difference-learning-and-its-predication-efc91016144a
+      \endverb
+    \endentry
+    \entry{silver_general_2018}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=89dbd30410c2085cd059f32c57d4593e}{%
+           family={Silver},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80c63e95a9e243591a33a7e3156f1d78}{%
+           family={Hubert},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fad8df927bc0014c0bd6a9feb7aa71d}{%
+           family={Schrittwieser},
+           familyi={S\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af540e84ef1ecdaa70b1f7c90f59fd7d}{%
+           family={Antonoglou},
+           familyi={A\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f311ac3fec4a3d3207fdec17a9887704}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4131bd14e5ca890278ecd351e356dc34}{%
+           family={Guez},
+           familyi={G\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3075d0e02c0833f6e5fe1addb880898f}{%
+           family={Lanctot},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50d24de916599d306c5cb1a77156e4b9}{%
+           family={Sifre},
+           familyi={S\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a425c81c03d315597e3f92690763e24d}{%
+           family={Kumaran},
+           familyi={K\bibinitperiod},
+           given={Dharshan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=368b9b2de627b852658c433b062d4e1e}{%
+           family={Graepel},
+           familyi={G\bibinitperiod},
+           given={Thore},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a6fdf4df9a25f1d2d506ad9e86e1f6c}{%
+           family={Lillicrap},
+           familyi={L\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b160026950ebb1e2286dfb40c15482f5}{%
+           family={Hassabis},
+           familyi={H\bibinitperiod},
+           given={Demis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ccacac34637df06f749428b6ec5052e}
+      \strng{fullhash}{016fd7164d5ebbbf1e175ef34971d5fa}
+      \strng{bibnamehash}{50841eafbe0e76424c6bfd45dde2e9d7}
+      \strng{authorbibnamehash}{50841eafbe0e76424c6bfd45dde2e9d7}
+      \strng{authornamehash}{4ccacac34637df06f749428b6ec5052e}
+      \strng{authorfullhash}{016fd7164d5ebbbf1e175ef34971d5fa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The game of chess is the longest-studied domain in the history of artiﬁcial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-speciﬁc adaptations, and handcrafted evaluation functions that have been reﬁned by human experts over several decades. By contrast, the {AlphaGo} Zero program recently achieved superhuman performance in the game of Go by reinforcement learning from selfplay. In this paper, we generalize this approach into a single {AlphaZero} algorithm that can achieve superhuman performance in many challenging games. Starting from random play and given no domain knowledge except the game rules, {AlphaZero} convincingly defeated a world champion program in the games of chess and shogi (Japanese chess) as well as Go.}
+      \field{day}{7}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6419}
+      \field{shortjournal}{Science}
+      \field{title}{A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{362}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1140\bibrangedash 1144}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aar6404
+      \endverb
+      \verb{file}
+      \verb Silver et al. - 2018 - A general reinforcement learning algorithm that ma.pdf:/Users/philmoremorrison/Zotero/storage/JBXFNC4V/Silver et al. - 2018 - A general reinforcement learning algorithm that ma.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.aar6404
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.aar6404
+      \endverb
+    \endentry
+    \entry{srinivasan_actor-critic_2018}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=02988c38f191d40af12e0f7e6518498e}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3075d0e02c0833f6e5fe1addb880898f}{%
+           family={Lanctot},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997657b08786dc45aaef854249d8af31}{%
+           family={Zambaldi},
+           familyi={Z\bibinitperiod},
+           given={Vinicius},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaa00aabdab6adfa06bb972717d382b0}{%
+           family={Perolat},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abe873d21d37af0af9b6711c1efd9caa}{%
+           family={Tuyls},
+           familyi={T\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce2c8d8bf1e96e9845a930fb6264204f}{%
+           family={Munos},
+           familyi={M\bibinitperiod},
+           given={Remi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3318cb7968ff83b0f4b5a04d8f9ec318}{%
+           family={Bowling},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f63582159d5d1a213705e6d505dbfa1b}
+      \strng{fullhash}{1959d5b878007fec7609d094c061026c}
+      \strng{bibnamehash}{1959d5b878007fec7609d094c061026c}
+      \strng{authorbibnamehash}{1959d5b878007fec7609d094c061026c}
+      \strng{authornamehash}{f63582159d5d1a213705e6d505dbfa1b}
+      \strng{authorfullhash}{1959d5b878007fec7609d094c061026c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Optimization of parameterized policies for reinforcement learning ({RL}) is an important and challenging problem in artificial intelligence. Among the most common approaches are algorithms based on gradient ascent of a score function representing discounted return. In this paper, we examine the role of these policy gradient and actor-critic algorithms in partially-observable multiagent environments. We show several candidate policy update rules and relate them to a foundation of regret minimization and multiagent learning techniques for the one-shot and tabular cases, leading to previously unknown convergence guarantees. We apply our method to model-free multiagent reinforcement learning in adversarial sequential decision problems (zero-sum imperfect information games), using {RL}-style function approximation. We evaluate on commonly used benchmark Poker domains, showing performance against fixed policies and empirical convergence to approximate Nash equilibria in self-play with rates similar to or better than a baseline model-free algorithm for zero sum games, without any domain-specific state space reductions.}
+      \field{day}{21}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Actor-Critic Policy Optimization in Partially Observable Multiagent Environments}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Srinivasan et al. - 2018 - Actor-Critic Policy Optimization in Partially Obse.pdf:/Users/philmoremorrison/Zotero/storage/63C5S3XI/Srinivasan et al. - 2018 - Actor-Critic Policy Optimization in Partially Obse.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1810.09026v5
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1810.09026v5
+      \endverb
+    \endentry
+    \entry{sutton1988learning}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \strng{fullhash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \strng{bibnamehash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \strng{authorbibnamehash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \strng{authornamehash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \strng{authorfullhash}{eb920e5277d3d5fd0903f3cd41e11871}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine learning}
+      \field{number}{1}
+      \field{title}{Learning to Predict by The Methods of Temporal Differences}
+      \field{volume}{3}
+      \field{year}{1988}
+      \field{pages}{9\bibrangedash 44}
+      \range{pages}{36}
+    \endentry
+    \entry{swiechowski2021}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=332ed462f69f0196a1ef29aa6004e9eb}{%
+           family={Świechowski},
+           familyi={Ś\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9df5ad96f4eb44a01e07c4d212d64974}{%
+           family={Godlewski},
+           familyi={G\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4185c7ee5350bf591989b6cb7edeea79}{%
+           family={Sawicki},
+           familyi={S\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5cdee6ec583c792c2f20ddddc2874ff}{%
+           family={Mańdziuk},
+           familyi={M\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3741f44919172ce39a408a089354add}
+      \strng{fullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{bibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authorbibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authornamehash}{d3741f44919172ce39a408a089354add}
+      \strng{authorfullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \field{sortinit}{Ś}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{title}{Monte Carlo Tree Search: A Review of Recent Modifications and Applications}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2103.04931
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

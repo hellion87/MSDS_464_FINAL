@@ -1,0 +1,18 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is '464_FINAL_REPORT.blg'
+[50] biber-darwin:340> INFO - === Sat Dec 11, 2021, 10:01:01
+[63] Biber.pm:415> INFO - Reading '464_FINAL_REPORT.bcf'
+[183] Biber.pm:952> INFO - Found 16 citekeys in bib section 0
+[195] Biber.pm:4340> INFO - Processing section 0
+[203] Biber.pm:4531> INFO - Looking for bibtex format file '464_final.bib' for section 0
+[205] bibtex.pm:1689> INFO - LaTeX decoding ...
+[249] bibtex.pm:1494> INFO - Found BibTeX data source '464_final.bib'
+[252] Utils.pm:395> WARN - Duplicate entry key: 'karunakaran_actor-critic_2020' in file '464_final.bib', skipping ...
+[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[356] Biber.pm:4168> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[356] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[374] bbl.pm:654> INFO - Writing '464_FINAL_REPORT.bbl' with encoding 'UTF-8'
+[387] bbl.pm:757> INFO - Output to 464_FINAL_REPORT.bbl
+[387] Biber.pm:128> INFO - WARNINGS: 1
